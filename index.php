@@ -16,8 +16,8 @@
         <section>
             <img src="pogoda.php?gorod=4944">
             <img src="pogoda.php?gorod=5053"><br><br>
-            <img src="pogoda.php?gorod=5080">
-            <img src="pogoda.php?gorod=5077"><br>
+            <img src="pogoda.php?gorod=5070">
+            <img src="pogoda.php?gorod=5057"><br>
         </section>
 
         <h2>Погода у світі:</h2>

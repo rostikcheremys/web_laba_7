@@ -22,7 +22,7 @@ preg_match('/"date":"(\d{2}\.\d{2}\.\d{4})/', $out, $dateMatch);
 $date = $dateMatch[1] ?? 'Дата не знайдена';
 
 preg_match_all('/<temperature-value value="([-]?\d+)"/', $out, $temperatureMatches);
-$temperatureValues = array_slice($temperatureMatches[1], 7, 8);  // Беремо перші 8 значень
+$temperatureValues = array_slice($temperatureMatches[1], 7, 8);
 
 $im = imagecreatetruecolor(500, 200);
 
